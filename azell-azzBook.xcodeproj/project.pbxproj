@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6C6E05620EAF05DB6BBCBD0 /* Pods_azell_azzBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21D0A2695670785C0CCDA6 /* Pods_azell_azzBook.framework */; };
+		E82F7B5E1C5BE0EA00054490 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F7B5D1C5BE0EA00054490 /* FeedVC.swift */; };
+		E82F7B601C5BE1BF00054490 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F7B5F1C5BE1BF00054490 /* PostCell.swift */; };
+		E84D9A971C5BBFB6007D3738 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84D9A961C5BBFB6007D3738 /* DataService.swift */; };
 		E88471721C57E35B00CBC16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88471711C57E35B00CBC16E /* AppDelegate.swift */; };
 		E88471741C57E35B00CBC16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88471731C57E35B00CBC16E /* ViewController.swift */; };
 		E88471771C57E35B00CBC16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88471751C57E35B00CBC16E /* Main.storyboard */; };
 		E88471791C57E35B00CBC16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88471781C57E35B00CBC16E /* Assets.xcassets */; };
 		E884717C1C57E35B00CBC16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E884717A1C57E35B00CBC16E /* LaunchScreen.storyboard */; };
+		E884718B1C57E56000CBC16E /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88471871C57E56000CBC16E /* NotoSans-Bold.ttf */; };
+		E884718C1C57E56000CBC16E /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88471881C57E56000CBC16E /* NotoSans-BoldItalic.ttf */; };
+		E884718D1C57E56000CBC16E /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88471891C57E56000CBC16E /* NotoSans-Italic.ttf */; };
+		E884718E1C57E56000CBC16E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E884718A1C57E56000CBC16E /* NotoSans-Regular.ttf */; };
+		E88471901C5B9CFF00CBC16E /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E884718F1C5B9CFF00CBC16E /* MaterialView.swift */; };
+		E88471931C5B9D4400CBC16E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88471921C5B9D4400CBC16E /* Constants.swift */; };
+		E88471951C5BA07F00CBC16E /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88471941C5BA07F00CBC16E /* MaterialButton.swift */; };
+		E88471971C5BAB5300CBC16E /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88471961C5BAB5300CBC16E /* MaterialTextField.swift */; };
+		E884719C1C5BB0C600CBC16E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88471991C5BB0C600CBC16E /* Bolts.framework */; };
+		E884719D1C5BB0C600CBC16E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E884719A1C5BB0C600CBC16E /* FBSDKCoreKit.framework */; };
+		E884719E1C5BB0C600CBC16E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E884719B1C5BB0C600CBC16E /* FBSDKLoginKit.framework */; };
+		E8C80EF71C627B4C00A455F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C80EF61C627B4C00A455F9 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B21D0A2695670785C0CCDA6 /* Pods_azell_azzBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_azell_azzBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A823652B0FCFDB210B90F2 /* Pods-azell-azzBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azell-azzBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azell-azzBook/Pods-azell-azzBook.debug.xcconfig"; sourceTree = "<group>"; };
+		A50D36FD91F27D12B1DDD30C /* Pods-azell-azzBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azell-azzBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-azell-azzBook/Pods-azell-azzBook.release.xcconfig"; sourceTree = "<group>"; };
+		E82F7B5D1C5BE0EA00054490 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		E82F7B5F1C5BE1BF00054490 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E84D9A961C5BBFB6007D3738 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E884716E1C57E35B00CBC16E /* azell-azzBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "azell-azzBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88471711C57E35B00CBC16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E88471731C57E35B00CBC16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,18 @@
 		E88471781C57E35B00CBC16E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E884717B1C57E35B00CBC16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E884717D1C57E35B00CBC16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88471871C57E56000CBC16E /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		E88471881C57E56000CBC16E /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E88471891C57E56000CBC16E /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		E884718A1C57E56000CBC16E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		E884718F1C5B9CFF00CBC16E /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		E88471921C5B9D4400CBC16E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E88471941C5BA07F00CBC16E /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		E88471961C5BAB5300CBC16E /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		E88471991C5BB0C600CBC16E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		E884719A1C5BB0C600CBC16E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E884719B1C5BB0C600CBC16E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E8C80EF61C627B4C00A455F9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E884719C1C5BB0C600CBC16E /* Bolts.framework in Frameworks */,
+				E884719D1C5BB0C600CBC16E /* FBSDKCoreKit.framework in Frameworks */,
+				E884719E1C5BB0C600CBC16E /* FBSDKLoginKit.framework in Frameworks */,
+				D6C6E05620EAF05DB6BBCBD0 /* Pods_azell_azzBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83FA297E7800DEB66F30E257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25A823652B0FCFDB210B90F2 /* Pods-azell-azzBook.debug.xcconfig */,
+				A50D36FD91F27D12B1DDD30C /* Pods-azell-azzBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7AAB2BF6D9A490BA35A5416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B21D0A2695670785C0CCDA6 /* Pods_azell_azzBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84D9A951C5BBFA6007D3738 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E84D9A961C5BBFB6007D3738 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		E88471651C57E35A00CBC16E = {
 			isa = PBXGroup;
 			children = (
 				E88471701C57E35B00CBC16E /* azell-azzBook */,
 				E884716F1C57E35B00CBC16E /* Products */,
+				83FA297E7800DEB66F30E257 /* Pods */,
+				C7AAB2BF6D9A490BA35A5416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,77 @@
 		E88471701C57E35B00CBC16E /* azell-azzBook */ = {
 			isa = PBXGroup;
 			children = (
+				E84D9A951C5BBFA6007D3738 /* Services */,
+				E88471981C5BB0B900CBC16E /* Frameworks */,
+				E88471911C5B9D2F00CBC16E /* Util */,
+				E88471861C57E55400CBC16E /* Resources */,
+				E88471851C57E54F00CBC16E /* Model */,
+				E88471841C57E54B00CBC16E /* View */,
+				E88471831C57E54300CBC16E /* Controller */,
 				E88471711C57E35B00CBC16E /* AppDelegate.swift */,
-				E88471731C57E35B00CBC16E /* ViewController.swift */,
 				E88471751C57E35B00CBC16E /* Main.storyboard */,
 				E88471781C57E35B00CBC16E /* Assets.xcassets */,
 				E884717A1C57E35B00CBC16E /* LaunchScreen.storyboard */,
 				E884717D1C57E35B00CBC16E /* Info.plist */,
 			);
 			path = "azell-azzBook";
+			sourceTree = "<group>";
+		};
+		E88471831C57E54300CBC16E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E88471731C57E35B00CBC16E /* ViewController.swift */,
+				E82F7B5D1C5BE0EA00054490 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E88471841C57E54B00CBC16E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E884718F1C5B9CFF00CBC16E /* MaterialView.swift */,
+				E88471941C5BA07F00CBC16E /* MaterialButton.swift */,
+				E88471961C5BAB5300CBC16E /* MaterialTextField.swift */,
+				E82F7B5F1C5BE1BF00054490 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E88471851C57E54F00CBC16E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8C80EF61C627B4C00A455F9 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E88471861C57E55400CBC16E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88471871C57E56000CBC16E /* NotoSans-Bold.ttf */,
+				E88471881C57E56000CBC16E /* NotoSans-BoldItalic.ttf */,
+				E88471891C57E56000CBC16E /* NotoSans-Italic.ttf */,
+				E884718A1C57E56000CBC16E /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E88471911C5B9D2F00CBC16E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E88471921C5B9D4400CBC16E /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		E88471981C5BB0B900CBC16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88471991C5BB0C600CBC16E /* Bolts.framework */,
+				E884719A1C5BB0C600CBC16E /* FBSDKCoreKit.framework */,
+				E884719B1C5BB0C600CBC16E /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E88471801C57E35B00CBC16E /* Build configuration list for PBXNativeTarget "azell-azzBook" */;
 			buildPhases = (
+				201004439B314BB1B3419650 /* Check Pods Manifest.lock */,
 				E884716A1C57E35A00CBC16E /* Sources */,
 				E884716B1C57E35A00CBC16E /* Frameworks */,
 				E884716C1C57E35A00CBC16E /* Resources */,
+				35E2BD554C94F9B5A57BCECD /* Embed Pods Frameworks */,
+				B82629AADB2505ADEC07C02F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +253,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E884718B1C57E56000CBC16E /* NotoSans-Bold.ttf in Resources */,
 				E884717C1C57E35B00CBC16E /* LaunchScreen.storyboard in Resources */,
+				E884718C1C57E56000CBC16E /* NotoSans-BoldItalic.ttf in Resources */,
+				E884718D1C57E56000CBC16E /* NotoSans-Italic.ttf in Resources */,
 				E88471791C57E35B00CBC16E /* Assets.xcassets in Resources */,
 				E88471771C57E35B00CBC16E /* Main.storyboard in Resources */,
+				E884718E1C57E56000CBC16E /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201004439B314BB1B3419650 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35E2BD554C94F9B5A57BCECD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azell-azzBook/Pods-azell-azzBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82629AADB2505ADEC07C02F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azell-azzBook/Pods-azell-azzBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E884716A1C57E35A00CBC16E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88471971C5BAB5300CBC16E /* MaterialTextField.swift in Sources */,
+				E84D9A971C5BBFB6007D3738 /* DataService.swift in Sources */,
+				E88471901C5B9CFF00CBC16E /* MaterialView.swift in Sources */,
 				E88471741C57E35B00CBC16E /* ViewController.swift in Sources */,
+				E82F7B5E1C5BE0EA00054490 /* FeedVC.swift in Sources */,
+				E82F7B601C5BE1BF00054490 /* PostCell.swift in Sources */,
 				E88471721C57E35B00CBC16E /* AppDelegate.swift in Sources */,
+				E88471931C5B9D4400CBC16E /* Constants.swift in Sources */,
+				E88471951C5BA07F00CBC16E /* MaterialButton.swift in Sources */,
+				E8C80EF71C627B4C00A455F9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,22 +438,34 @@
 		};
 		E88471811C57E35B00CBC16E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A823652B0FCFDB210B90F2 /* Pods-azell-azzBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/azell-azzBook",
+				);
 				INFOPLIST_FILE = "azell-azzBook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Azell.azell-azzBook";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azell.azzBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		E88471821C57E35B00CBC16E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D36FD91F27D12B1DDD30C /* Pods-azell-azzBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/azell-azzBook",
+				);
 				INFOPLIST_FILE = "azell-azzBook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Azell.azell-azzBook";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azell.azzBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -286,6 +489,7 @@
 				E88471821C57E35B00CBC16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

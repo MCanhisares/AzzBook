@@ -1,0 +1,6 @@
+framework module Pods_azell_azzBook {
+  umbrella header "Pods-azell-azzBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

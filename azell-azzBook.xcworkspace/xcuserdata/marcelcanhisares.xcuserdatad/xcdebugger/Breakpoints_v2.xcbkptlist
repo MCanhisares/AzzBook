@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "azell-azzBook/FeedVC.swift"
+            timestampString = "479490229.824445"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "makePost(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "azell_azzBook.FeedVC.makePost (azell_azzBook.FeedVC)(azell_azzBook.MaterialButton) -&gt; ()"
+                  moduleName = "azell-azzBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Library/Development/XCode/iOS%20Course/azell-azzBook/azell-azzBook/FeedVC.swift"
+                  timestampString = "479490229.942977"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "1826">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "azell_azzBook.FeedVC.(makePost (azell_azzBook.FeedVC) -&gt; (azell_azzBook.MaterialButton) -&gt; ()).(closure #1)"
+                  moduleName = "azell-azzBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Library/Development/XCode/iOS%20Course/azell-azzBook/azell-azzBook/FeedVC.swift"
+                  timestampString = "479490229.948264"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
